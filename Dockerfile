@@ -1,7 +1,7 @@
 FROM debian:bullseye-slim
 LABEL maintainer="otiai10 <otiai10@gmail.com>"
 
-ARG LOAD_LANG=jpn
+ARG LOAD_LANG=tha
 
 RUN apt update \
     && apt install -y \

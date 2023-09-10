@@ -34,7 +34,7 @@ cf. [heroku cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-i
 ## Ready-Made Docker Image
 
 ```sh
-% docker run -p 8080:8080 otiai10/ocrserver
+% docker run --name ocrserver -p 8080:8080 -d blackmocca/ocrserver:latest
 # open http://localhost:8080
 ```
 
